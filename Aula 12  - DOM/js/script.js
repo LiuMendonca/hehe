@@ -51,7 +51,7 @@ window.onload = () => {
   criacaoPosts();
 
   let card = document.querySelectorAll(".card");
-
+z
   card.forEach((card) = {
     card.addEventListener("mousemove", () => {
       card.style.backgroundcolor = "pink";
@@ -61,7 +61,7 @@ window.onload = () => {
     });
     card.addEventListener("mouseout",() =>{
       card.style.backgroundcolor = "transparent";
-    });
+    })
   });
 
 };
